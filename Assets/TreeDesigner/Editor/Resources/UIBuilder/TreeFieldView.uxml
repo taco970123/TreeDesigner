@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="TreeFieldViewStyle.uss" />
+    <uie:Toolbar name="tree-field-bar">
+        <uie:ObjectField name="tree-field" />
+        <ui:VisualElement name="divide" style="border-left-width: 1px; border-right-width: 1px; border-left-color: rgb(34, 34, 34); border-right-color: rgb(34, 34, 34); border-top-color: rgb(34, 34, 34); border-bottom-color: rgb(34, 34, 34);" />
+        <ui:Button text="X" display-tooltip-when-elided="true" name="tree-remove-btn" />
+    </uie:Toolbar>
+</ui:UXML>

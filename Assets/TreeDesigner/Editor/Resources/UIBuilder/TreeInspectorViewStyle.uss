@@ -1,0 +1,29 @@
+#title {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+    font-size: 20px;
+    background-color: rgb(34, 34, 34);
+}
+
+#original-inspector-container {
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 0;
+    border-left-color: rgba(34, 34, 34, 255);
+    border-right-color: rgba(34, 34, 34, 255);
+    border-top-color: rgba(34, 34, 34, 255);
+    border-bottom-color: rgba(34, 34, 34, 255);
+    flex-shrink: 0;
+}
+
+#original-inspector-info {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

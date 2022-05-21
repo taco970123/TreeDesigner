@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="ExposedPropertyViewStyle.uss" />
+    <uie:Toolbar name="property-bar">
+        <ui:Label display-tooltip-when-elided="true" name="property-type-label" />
+        <ui:VisualElement name="property-info-container">
+            <uie:Toolbar name="property-title" style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;">
+                <ui:Button display-tooltip-when-elided="true" name="property-showInfo-btn" style="border-right-width: 2px; flex-shrink: 1; flex-grow: 1;">
+                    <ui:Label display-tooltip-when-elided="true" name="property-name-label" />
+                </ui:Button>
+                <ui:Button text="X" display-tooltip-when-elided="true" name="property-remove-btn" style="width: 50px;" />
+            </uie:Toolbar>
+            <ui:VisualElement name="original-editor-container" />
+        </ui:VisualElement>
+    </uie:Toolbar>
+</ui:UXML>

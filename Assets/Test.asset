@@ -1,0 +1,931 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9037204317744464386
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59813a83897f284692778e69249dd70, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas:
+  - sourceNode: {fileID: 1268903450672651535}
+    outputValueName: outStringValue
+    inputValueName: stringValue
+  inputPortDatas:
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  - m_FieldName: stringValue
+    m_PortType: 1
+    m_PortIndex: 1
+  outputPortDatas: []
+  resetValueSource: 0
+  guid: 5fd6928b6f555bd42b70a3ac5ea052e7
+  position: {x: 1094, y: 233.99995}
+  stringValue: 
+--- !u!114 &-6595515662119229006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59813a83897f284692778e69249dd70, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas:
+  - sourceNode: {fileID: 2405254301129643359}
+    outputValueName: outStringValue
+    inputValueName: stringValue
+  inputPortDatas:
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  - m_FieldName: stringValue
+    m_PortType: 1
+    m_PortIndex: 1
+  outputPortDatas: []
+  resetValueSource: 0
+  guid: f1bd9fd2e558e384f839201d16e5d5d9
+  position: {x: 1094, y: -24.000038}
+  stringValue: 
+--- !u!114 &-6330815187870631667
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58129afa6bc99b4a995e542c966b57c, type: 3}
+  m_Name: ExposedFloatNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: outFloatValue
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 9508717078c980342ab03dcb5ab4e875
+  position: {x: -179, y: 587}
+  nodeType: 0
+  exposedProperty: {fileID: -5475099401499398355}
+  inFloatValue: 0
+  outFloatValue: 0
+--- !u!114 &-5946609834140060861
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7c90c75e9db2d4bb0aa73470e9e468, type: 3}
+  m_Name: ExposedStringNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: outStringValue
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 574d30d9a8fb77c4398809b438a96245
+  position: {x: 353, y: 627}
+  nodeType: 0
+  exposedProperty: {fileID: 2858947842254072927}
+  inStringValue: 
+  outStringValue: 
+--- !u!114 &-5475099401499398355
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74edea6d8588c3d4db2404d07dfdfdda, type: 3}
+  m_Name: ExposedFloatProperty
+  m_EditorClassIdentifier: 
+  Name: FloatC
+  Global: 0
+  showInfo: 1
+  interactable: 1
+  value: 3
+--- !u!114 &-5354099594425661463
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9800592f255c1e24089128a422275efb, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas:
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  outputPortDatas:
+  - m_FieldName: m_OutputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: a08c08065c25af54094a835a6320cc8b
+  position: {x: 365, y: 0}
+  children:
+  - {fileID: -214996683365092117}
+  - {fileID: 5095809750259633592}
+--- !u!114 &-3476179263681634493
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58129afa6bc99b4a995e542c966b57c, type: 3}
+  m_Name: ExposedFloatNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: outFloatValue
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 9918cc6473b886f4985ae9a149b113fa
+  position: {x: -441, y: 469}
+  nodeType: 0
+  exposedProperty: {fileID: 417534530860743365}
+  inFloatValue: 0
+  outFloatValue: 0
+--- !u!114 &-1305688919171559375
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c58bbba219cb24f8a631ce4eae93b5, type: 3}
+  m_Name: ExposedBoolProperty
+  m_EditorClassIdentifier: 
+  Name: BoolA
+  Global: 0
+  showInfo: 1
+  interactable: 1
+  value: 1
+--- !u!114 &-414939239332771448
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59813a83897f284692778e69249dd70, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 0
+  linkDatas:
+  - sourceNode: {fileID: -5946609834140060861}
+    outputValueName: outStringValue
+    inputValueName: stringValue
+  inputPortDatas:
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  - m_FieldName: stringValue
+    m_PortType: 1
+    m_PortIndex: 1
+  outputPortDatas: []
+  resetValueSource: 0
+  guid: ff11625074116a64095f7c4bb82c4f13
+  position: {x: 598.00006, y: 603.00006}
+  stringValue: 
+--- !u!114 &-214996683365092117
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912c595695059fb499008c8b7b9b940f, type: 3}
+  m_Name: JudgeBoolNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas:
+  - sourceNode: {fileID: 190178602199320289}
+    outputValueName: outBoolValue
+    inputValueName: boolValue1
+  inputPortDatas:
+  - m_FieldName: boolValue1
+    m_PortType: 1
+    m_PortIndex: 1
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  outputPortDatas:
+  - m_FieldName: m_OutputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 4bb6c2f75b07a8746bc605a306ca07c3
+  position: {x: 861.00006, y: -24.000038}
+  child: {fileID: -6595515662119229006}
+  alwaysRight: 0
+  boolValue1: 0
+  boolValue2: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 179a0c37dcdb12e46931c2d2ee479ce8, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  treeName: Test
+  rootNode: {fileID: 3608435942296812277}
+  treeState: 0
+  nodes:
+  - {fileID: 3608435942296812277}
+  - {fileID: -214996683365092117}
+  - {fileID: 190178602199320289}
+  - {fileID: -6595515662119229006}
+  - {fileID: 2405254301129643359}
+  - {fileID: -5354099594425661463}
+  - {fileID: -9037204317744464386}
+  - {fileID: 5095809750259633592}
+  - {fileID: 1268903450672651535}
+  - {fileID: 1778326465478277578}
+  - {fileID: 6999840947215947860}
+  - {fileID: -3476179263681634493}
+  - {fileID: -6330815187870631667}
+  - {fileID: 8208928586296517100}
+  - {fileID: 1583810524286530882}
+  - {fileID: -414939239332771448}
+  - {fileID: -5946609834140060861}
+  - {fileID: 4062458596492360498}
+  - {fileID: 2581608370543495555}
+  - {fileID: 8765160486508513950}
+  - {fileID: 2906908193259751281}
+  - {fileID: 2569184969736152277}
+  - {fileID: 1045887994105954565}
+  exposedProperties:
+  - {fileID: -1305688919171559375}
+  - {fileID: 349415868266279558}
+  - {fileID: 1313234243548891149}
+  - {fileID: 9127553592505103063}
+  - {fileID: 2858947842254072927}
+  - {fileID: 9121253978690455605}
+  - {fileID: 417534530860743365}
+  - {fileID: -5475099401499398355}
+  descriptionNotes:
+  - {fileID: 931320726749632906}
+  - {fileID: 1360095374477211857}
+--- !u!114 &190178602199320289
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab3ff5661c65ec41b674eeb90c0bb02, type: 3}
+  m_Name: ExposedBoolNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: outBoolValue
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 42c3e15fc241a214e9d88c73cb08db1c
+  position: {x: 632, y: -24}
+  nodeType: 0
+  exposedProperty: {fileID: -1305688919171559375}
+  inBoolValue: 0
+  outBoolValue: 1
+--- !u!114 &349415868266279558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c58bbba219cb24f8a631ce4eae93b5, type: 3}
+  m_Name: ExposedBoolProperty
+  m_EditorClassIdentifier: 
+  Name: BoolB
+  Global: 0
+  showInfo: 1
+  interactable: 1
+  value: 0
+--- !u!114 &417534530860743365
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74edea6d8588c3d4db2404d07dfdfdda, type: 3}
+  m_Name: ExposedFloatProperty
+  m_EditorClassIdentifier: 
+  Name: FloatB
+  Global: 0
+  showInfo: 1
+  interactable: 1
+  value: 4
+--- !u!114 &931320726749632906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6645182b048dffe4a8614cd1e460b979, type: 3}
+  m_Name: DescriptionNote
+  m_EditorClassIdentifier: 
+  title: "\u5224\u65AD"
+  content: 
+  position:
+    serializedVersion: 2
+    x: 598
+    y: -87
+    width: 427
+    height: 158
+--- !u!114 &1045887994105954565
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998d27dba9c5e644c84991e4e06ac855, type: 3}
+  m_Name: ToStringNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas:
+  - sourceNode: {fileID: 2569184969736152277}
+    outputValueName: float3
+    inputValueName: value
+  inputPortDatas:
+  - m_FieldName: value
+    m_PortType: 1
+    m_PortIndex: 0
+  outputPortDatas:
+  - m_FieldName: stringValue
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 0bd3f3085bccce34c86ee233410fb381
+  position: {x: 248, y: 445}
+  operateOnce: 0
+  stringValue: 
+--- !u!114 &1268903450672651535
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7c90c75e9db2d4bb0aa73470e9e468, type: 3}
+  m_Name: ExposedStringNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: outStringValue
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 0ca38198a73fc3a47b4b467c6fb9afbf
+  position: {x: 833, y: 354.99994}
+  nodeType: 0
+  exposedProperty: {fileID: 9127553592505103063}
+  inStringValue: 
+  outStringValue: 
+--- !u!114 &1313234243548891149
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2da10c1682eedf4f824e50e9b99563a, type: 3}
+  m_Name: ExposedStringProperty
+  m_EditorClassIdentifier: 
+  Name: StringA
+  Global: 0
+  showInfo: 1
+  interactable: 1
+  value: A
+--- !u!114 &1360095374477211857
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6645182b048dffe4a8614cd1e460b979, type: 3}
+  m_Name: DescriptionNote(Clone)
+  m_EditorClassIdentifier: 
+  title: "\u5224\u65AD"
+  content: 
+  position:
+    serializedVersion: 2
+    x: 593
+    y: 215
+    width: 427
+    height: 116
+--- !u!114 &1583810524286530882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7c90c75e9db2d4bb0aa73470e9e468, type: 3}
+  m_Name: ExposedStringNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 0
+  linkDatas:
+  - sourceNode: {fileID: 1045887994105954565}
+    outputValueName: stringValue
+    inputValueName: inStringValue
+  inputPortDatas:
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  - m_FieldName: inStringValue
+    m_PortType: 1
+    m_PortIndex: 1
+  outputPortDatas: []
+  resetValueSource: 0
+  guid: f243f55104daa4142957d4d3d5c896a2
+  position: {x: 598.00006, y: 420.90005}
+  nodeType: 1
+  exposedProperty: {fileID: 2858947842254072927}
+  inStringValue: 
+  outStringValue: 
+--- !u!114 &1778326465478277578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab3ff5661c65ec41b674eeb90c0bb02, type: 3}
+  m_Name: ExposedBoolNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: outBoolValue
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: ade696a67c5430141a6e7c36fcf93b36
+  position: {x: 600, y: 257.99997}
+  nodeType: 0
+  exposedProperty: {fileID: 349415868266279558}
+  inBoolValue: 0
+  outBoolValue: 0
+--- !u!114 &2405254301129643359
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7c90c75e9db2d4bb0aa73470e9e468, type: 3}
+  m_Name: ExposedStringNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: outStringValue
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 75d0f63a4afb5e149b31dc96039de0f6
+  position: {x: 833, y: 136.99997}
+  nodeType: 0
+  exposedProperty: {fileID: 1313234243548891149}
+  inStringValue: 
+  outStringValue: 
+--- !u!114 &2569184969736152277
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b97af48837234478624562da4db9b9, type: 3}
+  m_Name: MultiplyNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas:
+  - sourceNode: {fileID: 2906908193259751281}
+    outputValueName: float3
+    inputValueName: float1
+  - sourceNode: {fileID: -6330815187870631667}
+    outputValueName: outFloatValue
+    inputValueName: float2
+  inputPortDatas:
+  - m_FieldName: float1
+    m_PortType: 1
+    m_PortIndex: 0
+  - m_FieldName: float2
+    m_PortType: 1
+    m_PortIndex: 1
+  outputPortDatas:
+  - m_FieldName: float3
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 2f4165be82112d24ea298d9c3bab8d2b
+  position: {x: 42, y: 445}
+  operateOnce: 0
+  float1: 0
+  float2: 0
+  float3: 0
+--- !u!114 &2581608370543495555
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371ce8a2b261e734586170f9f91f1d49, type: 3}
+  m_Name: IEnumeratorNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 0
+  linkDatas:
+  - sourceNode: {fileID: 4062458596492360498}
+    outputValueName: stringList
+    inputValueName: valueList
+  inputPortDatas:
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  - m_FieldName: valueList
+    m_PortType: 1
+    m_PortIndex: 1
+  outputPortDatas:
+  - m_FieldName: m_OutputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  - m_FieldName: value
+    m_PortType: 1
+    m_PortIndex: 1
+  resetValueSource: 0
+  guid: d58af9f5b3b8cf64ab98abdf1c2b4130
+  position: {x: 598.00006, y: 790.996}
+  child: {fileID: 8765160486508513950}
+  resultType: 0
+--- !u!114 &2858947842254072927
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2da10c1682eedf4f824e50e9b99563a, type: 3}
+  m_Name: ExposedStringProperty
+  m_EditorClassIdentifier: 
+  Name: StringC
+  Global: 0
+  showInfo: 1
+  interactable: 1
+  value: 
+--- !u!114 &2906908193259751281
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bae7c1a286f6642b5851215faaf18d, type: 3}
+  m_Name: AddNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas:
+  - sourceNode: {fileID: 6999840947215947860}
+    outputValueName: outFloatValue
+    inputValueName: float1
+  - sourceNode: {fileID: -3476179263681634493}
+    outputValueName: outFloatValue
+    inputValueName: float2
+  inputPortDatas:
+  - m_FieldName: float1
+    m_PortType: 1
+    m_PortIndex: 0
+  - m_FieldName: float2
+    m_PortType: 1
+    m_PortIndex: 1
+  outputPortDatas:
+  - m_FieldName: float3
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: a3e5bb9bbce3a394885d48087dc9a527
+  position: {x: -139, y: 445}
+  operateOnce: 0
+  float1: 0
+  float2: 0
+  float3: 0
+--- !u!114 &3608435942296812277
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccd5080bfb10bb43a83672fc955773f, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: m_OutputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 49160b3399e8eb64399168fc55251095
+  position: {x: -167.00012, y: -0.00000333786}
+  child: {fileID: 8208928586296517100}
+--- !u!114 &4062458596492360498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8de5193ed662c54d892b65cc8360c08, type: 3}
+  m_Name: StringListNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: stringList
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: fe8756046b563ac4baaf2ba9bd3988bb
+  position: {x: 388.0001, y: 814.996}
+  stringList:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+--- !u!114 &5095809750259633592
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912c595695059fb499008c8b7b9b940f, type: 3}
+  m_Name: JudgeBoolNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas:
+  - sourceNode: {fileID: 1778326465478277578}
+    outputValueName: outBoolValue
+    inputValueName: boolValue1
+  inputPortDatas:
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  - m_FieldName: boolValue1
+    m_PortType: 1
+    m_PortIndex: 1
+  outputPortDatas:
+  - m_FieldName: m_OutputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 9e9597d6bf856944c945516e44a4628c
+  position: {x: 861.00006, y: 233.99995}
+  child: {fileID: -9037204317744464386}
+  alwaysRight: 0
+  boolValue1: 0
+  boolValue2: 1
+--- !u!114 &6999840947215947860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b58129afa6bc99b4a995e542c966b57c, type: 3}
+  m_Name: ExposedFloatNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas: []
+  outputPortDatas:
+  - m_FieldName: outFloatValue
+    m_PortType: 1
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 3f4546fb9e1d5a7478b5e34d35e92d85
+  position: {x: -441, y: 376}
+  nodeType: 0
+  exposedProperty: {fileID: 9121253978690455605}
+  inFloatValue: 0
+  outFloatValue: 0
+--- !u!114 &8208928586296517100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4678dfd206a210f4b9a4512cb2635518, type: 3}
+  m_Name: SequenceNode
+  m_EditorClassIdentifier: 
+  parentEnable: 1
+  enable: 1
+  linkDatas: []
+  inputPortDatas:
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  outputPortDatas:
+  - m_FieldName: m_OutputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  resetValueSource: 0
+  guid: 883ac07de25d1994689559817580c017
+  position: {x: 163.99992, y: 0}
+  children:
+  - {fileID: -5354099594425661463}
+  - {fileID: 1583810524286530882}
+  - {fileID: -414939239332771448}
+  - {fileID: 2581608370543495555}
+  changedOutSide: 0
+  exposedInt: {fileID: 0}
+--- !u!114 &8765160486508513950
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59813a83897f284692778e69249dd70, type: 3}
+  m_Name: DebugLogNode
+  m_EditorClassIdentifier: 
+  parentEnable: 0
+  enable: 1
+  linkDatas:
+  - sourceNode: {fileID: 2581608370543495555}
+    outputValueName: value
+    inputValueName: stringValue
+  inputPortDatas:
+  - m_FieldName: m_InputPort
+    m_PortType: 0
+    m_PortIndex: 0
+  - m_FieldName: stringValue
+    m_PortType: 1
+    m_PortIndex: 1
+  outputPortDatas: []
+  resetValueSource: 0
+  guid: eac1d8c9f4b8204448af5a93c48bfe26
+  position: {x: 873.0001, y: 790.996}
+  stringValue: 
+--- !u!114 &9121253978690455605
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74edea6d8588c3d4db2404d07dfdfdda, type: 3}
+  m_Name: ExposedFloatProperty
+  m_EditorClassIdentifier: 
+  Name: FloatA
+  Global: 0
+  showInfo: 1
+  interactable: 1
+  value: 2
+--- !u!114 &9127553592505103063
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2da10c1682eedf4f824e50e9b99563a, type: 3}
+  m_Name: ExposedStringProperty
+  m_EditorClassIdentifier: 
+  Name: StringB
+  Global: 0
+  showInfo: 1
+  interactable: 1
+  value: B

@@ -1,0 +1,81 @@
+.node {
+    background-color: rgb(56, 56, 56);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-color: rgb(34, 34, 34);
+    border-right-color: rgb(34, 34, 34);
+    border-top-color: rgb(34, 34, 34);
+    border-bottom-color: rgb(34, 34, 34);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: -1px;
+    margin-right: 0;
+    margin-top: 1px;
+    margin-bottom: 0;
+    min-width: 300px;
+    display: none;
+}
+
+.root.node {
+    border-left-color: rgb(217, 187, 249);
+    border-right-color: rgb(217, 187, 249);
+    border-top-color: rgb(217, 187, 249);
+    border-bottom-color: rgb(217, 187, 249);
+}
+
+.action.node {
+    border-left-color: rgb(239, 71, 111);
+    border-right-color: rgb(239, 71, 111);
+    border-top-color: rgb(239, 71, 111);
+    border-bottom-color: rgb(239, 71, 111);
+}
+
+.decorator.node {
+    border-left-color: rgb(255, 209, 102);
+    border-right-color: rgb(255, 209, 102);
+    border-top-color: rgb(255, 209, 102);
+    border-bottom-color: rgb(255, 209, 102);
+}
+
+.composite.node {
+    border-left-color: rgb(6, 214, 160);
+    border-right-color: rgb(6, 214, 160);
+    border-top-color: rgb(6, 214, 160);
+    border-bottom-color: rgb(6, 214, 160);
+}
+
+.value.node {
+    border-left-color: rgb(74, 42, 192);
+    border-right-color: rgb(74, 42, 192);
+    border-top-color: rgb(74, 42, 192);
+    border-bottom-color: rgb(74, 42, 192);
+}
+
+.operate.node {
+    border-left-color: rgb(213, 57, 197);
+    border-right-color: rgb(213, 57, 197);
+    border-top-color: rgb(213, 57, 197);
+    border-bottom-color: rgb(213, 57, 197);
+}
+
+.trigger.node {
+    border-left-color: rgb(217, 187, 249);
+    border-right-color: rgb(217, 187, 249);
+    border-top-color: rgb(217, 187, 249);
+    border-bottom-color: rgb(217, 187, 249);
+}
+
+.nodeInfo {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

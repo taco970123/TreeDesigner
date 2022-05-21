@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="ExposedPropertyListViewStyle.uss" />
+    <ui:VisualElement name="property-container">
+        <uie:Toolbar picking-mode="Ignore" name="property-toolbar">
+            <ui:TextField picking-mode="Ignore" value="filler text" name="property-name" />
+            <ui:VisualElement name="property-add-btn" style="width: 50px;">
+                <ui:Label text="Add" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; -unity-font-style: bold; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-grow: 1; flex-shrink: 1;" />
+            </ui:VisualElement>
+        </uie:Toolbar>
+        <ui:ScrollView name="property-content">
+            <ui:VisualElement name="insert-line" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

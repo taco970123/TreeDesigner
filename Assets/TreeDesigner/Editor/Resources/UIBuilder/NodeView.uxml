@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="NodeViewStyle.uss" />
+    <ui:VisualElement name="node-state" picking-mode="Ignore" />
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" />
+    <ui:VisualElement name="node-border" picking-mode="Ignore">
+        <ui:VisualElement name="contents" picking-mode="Ignore">
+            <ui:VisualElement name="total" picking-mode="Ignore">
+                <uie:Toolbar name="top">
+                    <ui:VisualElement name="top-left" style="min-width: 30px;">
+                        <ui:Button display-tooltip-when-elided="true" name="node-enable" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="top-middle" style="flex-grow: 1;">
+                        <ui:VisualElement name="title" picking-mode="Ignore">
+                            <ui:Label name="title-label" text="SequenceNode" picking-mode="Ignore" class="unity-text-element unity-label" style="color: rgb(34, 34, 34);" />
+                            <ui:VisualElement name="title-button-container" picking-mode="Ignore">
+                                <ui:VisualElement name="collapse-button" picking-mode="Ignore">
+                                    <ui:VisualElement name="icon" picking-mode="Ignore" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="top-right" style="min-width: 30px;" />
+                </uie:Toolbar>
+                <ui:VisualElement name="middle">
+                    <uie:Toolbar style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; height: auto;">
+                        <ui:VisualElement name="input" />
+                        <ui:Label display-tooltip-when-elided="true" name="description" picking-mode="Ignore" style="flex-grow: 1; flex-shrink: 1;" />
+                        <ui:VisualElement name="output" />
+                    </uie:Toolbar>
+                </ui:VisualElement>
+                <ui:VisualElement name="bottom" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="TreeEditorWindowStyle.uss" />
+    <TreeDesigner.Editor.SplitView fixed-pane-initial-dimension="300" name="split-view">
+        <ui:VisualElement name="left-panel" style="flex-grow: 1; min-width: 300px;">
+            <ui:VisualElement name="tree-field-container">
+                <ui:Label text="Tree Hierarchy" display-tooltip-when-elided="true" name="title" />
+                <ui:ScrollView name="tree-field-content" />
+                <ui:Button display-tooltip-when-elided="true" name="clear-view-btn" />
+            </ui:VisualElement>
+            <TreeDesigner.Editor.TreeInspectorView name="tree-inspector-container" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="min-width: 300px;">
+            <TreeDesigner.Editor.TreeView focusable="true" name="tree-view" />
+            <uie:Toolbar name="tree-bar">
+                <ui:Button text="↑" display-tooltip-when-elided="true" name="tree-back-btn" />
+                <ui:Label display-tooltip-when-elided="true" name="tree-name" />
+            </uie:Toolbar>
+        </ui:VisualElement>
+    </TreeDesigner.Editor.SplitView>
+</ui:UXML>

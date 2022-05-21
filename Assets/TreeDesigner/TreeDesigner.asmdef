@@ -1,0 +1,16 @@
+{
+    "name": "TreeDesigner",
+    "rootNamespace": "TreeDesigner",
+    "references": [
+        "GUID:0960a9605f92f1b4ea5563a8e0f71a2c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
